@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mis repositorios de GitHub</title>
+</head>
+<body>
+    <h1>Mis repositorios</h1>
+    <div id="repositorios"></div>
+    <script>
+        fetch('https://api.github.com/users/tu-nombre-de-usuario/repos')
+            .then(response => response.json())
+            .then(data => {
+                const repositoriosDiv = document.getElementById('repositorios');
+                data.forEach(repo => {
+                    const repoLink = document.createElement('a');
+                    repoLink.href = repo.html_url;
+                    repoLink.textContent = repo.name;
+                    repositoriosDiv.appendChild(document.createElement('li')).appendChild(repoLink);
+                });
+            });
+    </script>
+</body>
+</html>
