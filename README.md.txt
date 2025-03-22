@@ -2,6 +2,6 @@
 
 # Mis Repositorios
 
-* [PREDICCION LLUVIAS](https://github.com/almu81/prediccionlluvias.git)
-* [LANZAMIENTOS FALCON9](https://github.com/almu81/FALCON-9-LAB.2.git)
-* [MODELO PREDICTIVO](https://github.com/almu81/modelopredictivo.git)
+* [predicciones](https://github.com/almu81/prediccionlluvias.git)
+* [HALCÓN-9-LAB.2](https://github.com/almu81/FALCON-9-LAB.2.git)
+* [modelopredictivo](https://github.com/almu81/modelopredictivo.git)
